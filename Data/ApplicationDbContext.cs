@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Activity5_CRUD.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Activity5_CRUD.Data
 {
@@ -7,5 +8,7 @@ namespace Activity5_CRUD.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { 
         }
+
+        public DbSet<Art> Arts { get; set; }
     }
 }
