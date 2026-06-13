@@ -1,11 +1,12 @@
-﻿namespace Activity5_CRUD.Models.Entities
+﻿namespace Activity5_CRUD.Models
 {
-    public class Art
+    public class EditEntryViewModel
     {
         public Guid Id { get; set; }
         public string ArtName { get; set; }
-        public string ImageUrl { get; set; }
+        public IFormFile? ImageUrl { get; set; }
         public string Medium { get; set; }
         public DateOnly Date { get; set; }
+        public string? ExistingImageUrl { get; set; }
     }
 }

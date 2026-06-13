@@ -19,8 +19,7 @@ namespace Activity5_CRUD.Migrations
                     ArtName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Medium = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Date = table.Column<DateOnly>(type: "date", nullable: false),
-                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Date = table.Column<DateOnly>(type: "date", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -40,11 +41,86 @@ body {
 .nav-sidebar{
     background-color: var(--background);
 }
+
+.app-name {
+    color: var(--accent);
+    font-size: 48px;
+    font-family: Fuggles;
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-sidebar hr {
     border-top: 3px solid #ffffff;
+    margin: 0px;
+    padding: 0px;
 }
 
 .nav-sidebar img {
     height: 50px;
     width: 50px;
+}
+
+.nav-tab a {
+    color: var(--accent);
+    font-size: 24px;
+}
+
+.nav-tab a:hover {
+    color: var(--accent);
+}
+
+.nav-tab:hover {
+    background-color: var(--primary);
+    color: var(--accent);
+}
+
+.main {
+    margin-top: 70px;
+    padding-left: 200px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading p {
+   font-size:64px;
+   font-weight: bold;
+   color: var(--secondary);
+   font-family: Playfair Display;
+}
+
+.heading button{
+    background-color: var(--secondary);
+    color: var(--accent);
+    font-size: 24px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.modal-content {
+    background-color: var(--accent);
+}
+
+.text-input {
+    background-color: var(--secondary);
+    color: var(--accent);
+    border: none;
+}
+
+.img-card{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.icn-functions {
+    width: 30px;
+    height: 30px;
 }

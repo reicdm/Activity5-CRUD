@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Activity5_CRUD.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260513032004_Initial Migration")]
+    [Migration("20260613024153_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -44,9 +44,6 @@ namespace Activity5_CRUD.Migrations
 
                     b.Property<string>("Medium")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

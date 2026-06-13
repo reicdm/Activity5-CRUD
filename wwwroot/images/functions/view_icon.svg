@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <!-- Background -->
+  <rect width="80" height="80" rx="16" fill="#091E2F"/>
+
+  <!-- Eye outer shape (almond / lens) -->
+  <path d="M10,40 Q40,14 70,40 Q40,66 10,40 Z"
+        fill="#4BBECE" stroke="#85DCEF" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Iris dark ring -->
+  <circle cx="40" cy="40" r="11" fill="#1B5E72"/>
+
+  <!-- Pupil -->
+  <circle cx="40" cy="40" r="6" fill="#091E2F"/>
+
+  <!-- Iris inner highlight ring -->
+  <circle cx="40" cy="40" r="8.5" fill="none" stroke="#4BBECE" stroke-width="1.5"/>
+
+  <!-- Specular catchlight -->
+  <circle cx="34" cy="36" r="2.5" fill="#C0EEFF" opacity="0.85"/>
+</svg>
